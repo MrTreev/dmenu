@@ -2,8 +2,14 @@
 VERSION = 5.0
 
 # paths
+BLD = bld
+SRC = src
+MAN = man
+SYS = sys
 PREFIX = /usr/local
-MANPREFIX = $(PREFIX)/share/man
+MANDIR = share/man
+MANSYS = $(SYS)/$(MANDIR)
+MANPREFIX = $(PREFIX)/$(MANDIR)
 
 X11INC = /usr/X11R6/include
 X11LIB = /usr/X11R6/lib

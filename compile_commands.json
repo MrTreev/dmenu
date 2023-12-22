@@ -1,0 +1,22 @@
+[
+  {
+    "directory": ".",
+    "command": "cc -std=c99 -pedantic -Wall -Os -I/usr/X11R6/include -I/usr/include/freetype2 -D_DEFAULT_SOURCE -D_BSD_SOURCE -D_XOPEN_SOURCE=700 -D_POSIX_C_SOURCE=200809L -DVERSION=\\\"5.0\\\" -DXINERAMA -o bld/util.o -c src/util.c",
+    "file": "src/util.c"
+  },
+  {
+    "directory": ".",
+    "command": "cc -std=c99 -pedantic -Wall -Os -I/usr/X11R6/include -I/usr/include/freetype2 -D_DEFAULT_SOURCE -D_BSD_SOURCE -D_XOPEN_SOURCE=700 -D_POSIX_C_SOURCE=200809L -DVERSION=\\\"5.0\\\" -DXINERAMA -o bld/dmenu.o -c src/dmenu.c",
+    "file": "src/dmenu.c"
+  },
+  {
+    "directory": ".",
+    "command": "cc -std=c99 -pedantic -Wall -Os -I/usr/X11R6/include -I/usr/include/freetype2 -D_DEFAULT_SOURCE -D_BSD_SOURCE -D_XOPEN_SOURCE=700 -D_POSIX_C_SOURCE=200809L -DVERSION=\\\"5.0\\\" -DXINERAMA -o bld/drw.o -c src/drw.c",
+    "file": "src/drw.c"
+  },
+  {
+    "directory": ".",
+    "command": "cc -std=c99 -pedantic -Wall -Os -I/usr/X11R6/include -I/usr/include/freetype2 -D_DEFAULT_SOURCE -D_BSD_SOURCE -D_XOPEN_SOURCE=700 -D_POSIX_C_SOURCE=200809L -DVERSION=\\\"5.0\\\" -DXINERAMA -o bld/stest.o -c src/stest.c",
+    "file": "src/stest.c"
+  }
+]
