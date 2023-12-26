@@ -1,15 +1,16 @@
 # dmenu version
 VERSION = 5.0
-
+BINNAME    = dmenu
 # paths
-BLD = bld
-SRC = src
-MAN = man
-SYS = sys
-PREFIX = /usr/local
-MANDIR = share/man
-MANSYS = $(SYS)/$(MANDIR)
-MANPREFIX = $(PREFIX)/$(MANDIR)
+BLD        = bld
+SRC        = src
+MAN        = man
+SYS        = sys
+PREFIX     = /usr/local
+MANDIR     = share/man
+WATCH      = $(SRC)/config.h
+DEPS       = $(SRC)/util.c $(SRC)/drw.c
+TOINSTALL  = 
 
 X11INC = /usr/X11R6/include
 X11LIB = /usr/X11R6/lib
